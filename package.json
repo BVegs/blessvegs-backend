@@ -1,13 +1,16 @@
 {
   "name": "blessvegs-backend",
   "version": "1.0.0",
-  "description": "Backend for BlessVegs",
+  "description": "Bless Vegs backend",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
