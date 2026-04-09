@@ -2,7 +2,10 @@
   "name": "blessvegs-backend",
   "version": "1.0.0",
   "description": "Bless Vegs backend",
- 
+ {
+  "name": "...",
+  ...
+}
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
